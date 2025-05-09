@@ -471,7 +471,7 @@ a.ddmenu::before {
 	}/*追加指定ここまで*/
 
 /*テキストのブロック*/
-#mainimg p {margin: 0;}
+#mainimg p {margin-top: 10vw;}
 #mainimg .text {
 	font-size: 28px;	/*文字サイズ。*/
 	font-weight: 800;	/*太字に*/
@@ -488,7 +488,7 @@ a.ddmenu::before {
 		font-size: 3.6vw;	/*文字サイズ。*/
 	}
 	#mainimg p {
-		margin-top: 10vw;
+		margin: 0;
 	}
 
 	}/*追加指定ここまで*/
@@ -498,7 +498,7 @@ a.ddmenu::before {
 #mainimg .btn {
 	font-size: 1rem;	/*文字サイズ*/
 	font-weight: 600;	/*少し太字に*/
-	margin-top: 3vw;	/*上のテキストとボタンの間のスペース。*/
+	margin-top: 60vw;	/*上のテキストとボタンの間のスペース。*/
 	display: flex;
 	gap: 1rem;	/*ボタン同士の余白*/
 }
@@ -520,7 +520,7 @@ a.ddmenu::before {
 	/*ボタン*/
 	#mainimg .btn {
 		font-size: 1.4vw;	/*文字サイズ*/
-		margin-top: 60vw;
+		margin-top: 3vw;
 	}
 	
 	#mainimg .btn a {
