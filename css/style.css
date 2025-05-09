@@ -1542,16 +1542,6 @@ section > .bg-slideup:first-child {
 	background: #fffcda;
 }
 
-/* 左から３つ目の「スタンダードプラン」の見出し（th）に背景色を設定 */
-.ta1.plan th:nth-child(3) {
-	background: var(--primary-color);		/*背景色。冒頭のprimary-colorを読み込みます。*/
-	color: var(--primary-inverse-color);	/*文字色。冒頭のprimary-inverse-colorを読み込みます。*/
-}
-/* 左から３つ目の「スタンダードプラン」の列（td）に背景色を設定 */
-.ta1.plan td:nth-child(3) {
-	background: var(--primary-color);		/*背景色。冒頭のprimary-colorを読み込みます。*/
-	color: var(--primary-inverse-color);	/*文字色。冒頭のprimary-inverse-colorを読み込みます。*/
-}
 
 /* 左から４つ目の「プレミアムプラン」の見出し（th）に背景色を設定 */
 .ta1.plan th:nth-child(4) {
