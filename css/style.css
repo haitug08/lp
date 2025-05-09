@@ -487,6 +487,9 @@ a.ddmenu::before {
 		text-align: left;	/*テキストを左寄せ*/
 		font-size: 3.6vw;	/*文字サイズ。*/
 	}
+	#mainimg p {
+		margin-top: 10vw;
+	}
 
 	}/*追加指定ここまで*/
 
@@ -517,6 +520,7 @@ a.ddmenu::before {
 	/*ボタン*/
 	#mainimg .btn {
 		font-size: 1.4vw;	/*文字サイズ*/
+		margin-top: 60vw;
 	}
 	
 	#mainimg .btn a {
