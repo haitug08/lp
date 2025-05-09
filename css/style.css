@@ -527,7 +527,7 @@ a.ddmenu::before {
 	}/*追加指定ここまで*/
 
 
-/*1つ目のボタン（お問い合わせ）の追加設定*/
+/*1つ目のボタン（お申込み）の追加設定*/
 #mainimg .btn p:nth-of-type(1) a {
 	background: var(--primary-color);		/*背景色。冒頭のprimary-colorを読み込みます。*/
 	color: var(--primary-inverse-color);	/*文字色。冒頭のprimary-inverse-colorを読み込みます。*/
@@ -535,8 +535,8 @@ a.ddmenu::before {
 
 /*2つ目のボタン（資料請求）への追加設定*/
 #mainimg .btn p:nth-of-type(2) a {
-	background: var(--base-inverse-color);	/*背景色。冒頭のbase-inverse-colorを読み込みます。*/
-	color: var(--primary-color);			/*文字色。冒頭のprimary-colorを読み込みます。*/
+	background: #000000;
+	color: var(--primary-inverse-color);			/*文字色。冒頭のprimary-colorを読み込みます。*/
 	letter-spacing: 0.1em;					/*文字間隔を少しだけ広く*/
 }
 
