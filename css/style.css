@@ -933,7 +933,7 @@ footer small {
 /*bg1
 ---------------------------------------------------------------------------*/
 .bg1 {
-	background-color: var(--base-inverse-color);	/*背景色。冒頭のbase-inverse-colorを読み込みます。*/
+	background-color: #323232;	
 	color: var(--base-color);	/*文字色。冒頭のbase-colorを読み込みます。*/
 }
 
