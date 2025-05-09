@@ -24,7 +24,7 @@
 ---------------------------------------------------------------------------*/
 :root {
 	--base-color: #fff;					/*テンプレートの土台となる色（主に背景カラー）*/
-	--base-inverse-color: #ffffff;		/*上のbase-colorの対となる色（主にテキストカラー）*/
+	--base-inverse-color: #0090B0;		/*上のbase-colorの対となる色（主にテキストカラー）*/
 
 	--primary-color: #0090B0;			/*テンプレートのメインまたはアクセントカラー*/
 	--primary-inverse-color: #ffffff;	/*上のprimary-colorの対となる色*/
