@@ -555,13 +555,13 @@ main {
 }
 
 .sp-br {
-	display: none;
+	display: inline-block;
 }
 
 	/*画面700px以上の追加指定*/
 	@media screen and (min-width:700px) {
 		.sp-br {
-			display: inline-block;
+			display: none;
 		}
 
 	}/*追加指定ここまで*/
