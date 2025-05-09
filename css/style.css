@@ -1485,7 +1485,6 @@ section > .bg-slideup:first-child {
 ---------------------------------------------------------------------------*/
 .ta1.plan, .ta1.plan td, .ta1.plan th {
 	text-align: center;
-	border: 2px solid var(--base-inverse-color);	/*テーブルの枠線の幅、線種、varは色のことで冒頭のbase-inverse-colorを読み込みます*/
 	padding: 0.5rem;
 }
 
