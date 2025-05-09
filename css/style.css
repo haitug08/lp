@@ -477,6 +477,7 @@ a.ddmenu::before {
 	font-weight: 800;	/*太字に*/
 	line-height: 1.8;	/*行間*/
 	text-align: center;	/*テキストをセンタリング*/
+	color: #ffffff;
 }
 
 	/*画面420px以上の追加指定*/
