@@ -1502,7 +1502,7 @@ section > .bg-slideup:first-child {
 /*一番左側の縦列の幅*/
 .ta1.plan th:first-child,
 .ta1.plan td:first-child {
-	width: 12rem;	/*目安としては約12文字分。*/
+	width: 18rem;	/*目安としては約12文字分。*/
 	color: #ffffff;
 	background-color: #0090B0;
 }
