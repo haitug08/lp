@@ -1380,7 +1380,7 @@ section > .bg-slideup:first-child {
 
 /*画像ブロック*/
 .list-normal1 figure {
-	width: 30%;	/*幅*/
+	width: 100%;	/*幅*/
 	margin-bottom: 1rem;	/*下に空けるスペース*/
 }
 
@@ -1389,6 +1389,7 @@ section > .bg-slideup:first-child {
 
 	/*画像の下マージンのリセット*/
 	.list-normal1 figure {
+		width: 30%;
 		margin-bottom: 0;
 	}
 
