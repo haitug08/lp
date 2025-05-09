@@ -380,7 +380,7 @@ a.ddmenu::before {
 	justify-content: space-between;
 	transform-origin: right top;
 	background: var(--base-inverse-color);	/*背景色。冒頭のbase-inverse-colorを読み込みます。*/
-	border-radius: 0px 0px 0px 10px;		/*角を丸くする指定。左上、右上、右下、左下への順番。*/
+	border-radius: 0px 0px 0px 0px;		/*角を丸くする指定。左上、右上、右下、左下への順番。*/
 }
 
 	/*画面700px以上の追加指定*/
