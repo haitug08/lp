@@ -912,7 +912,7 @@ footer small {
 	display: flex;
 	white-space: nowrap;
     font-size: 15vw;	/*文字サイズ*/
-	opacity: 0.05;		/*透明度。色が5%出た状態。*/
+	opacity: 0.15;		/*透明度。色が15%出た状態。*/
 }
 
 .text-slide span {
