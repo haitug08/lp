@@ -42,8 +42,8 @@
 </div>
 
 <div class="btn">
-<p><a href="https://asiro-ssi.com/form/init"><i class="fa-regular fa-envelope link-to-init"></i>お申込み</a></p>
-<p><a href="https://asiro-ssi.com/material_download"><i class="fa-regular fa-envelope link-to-material"></i>資料請求</a></p>
+<p><a href="https://asiro-ssi.com/form/init" class="link-to-init"><i class="fa-regular fa-envelope"></i>お申込み</a></p>
+<p><a href="https://asiro-ssi.com/material_download" class="link-to-material"><i class="fa-regular fa-envelope"></i>資料請求</a></p>
 </div>
 
 </div>
@@ -711,12 +711,12 @@
 
   // initページへのリンク
   document.querySelectorAll('.link-to-init').forEach(el => {
-    el.href = origin + "/form/init" + query;
+    el.href = "https://asiro-ssi.com/form/init" + query;
   });
 
   // material_downloadページへのリンク
   document.querySelectorAll('.link-to-material').forEach(el => {
-    el.href = origin + "/material_download" + query;
+    el.href = "https://staging.asiro-ssi.com/material_download" + query;
   });
 </script>
 	
