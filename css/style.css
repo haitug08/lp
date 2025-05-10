@@ -1607,7 +1607,7 @@ section > .bg-slideup:first-child {
 /*調整用スタイル
 ---------------------------------------------------------------------------*/
 .padding0 {
-	padding: 0 !important;
+	padding: 0px 0px 100px 0px !important;
 }
 .padding-lr0 {
 	padding-left: 0 !important;
