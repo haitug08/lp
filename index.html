@@ -42,8 +42,8 @@
 </div>
 
 <div class="btn">
-<p><a href="https://asiro-ssi.com/form/init"><i class="fa-regular fa-envelope"></i>お申込み</a></p>
-<p><a href="https://asiro-ssi.com/material_download"><i class="fa-regular fa-envelope"></i>資料請求</a></p>
+<p><a href="https://asiro-ssi.com/form/init"><i class="fa-regular fa-envelope link-to-init"></i>お申込み</a></p>
+<p><a href="https://asiro-ssi.com/material_download"><i class="fa-regular fa-envelope link-to-material"></i>資料請求</a></p>
 </div>
 
 </div>
@@ -611,14 +611,14 @@
 <div class="list image1">
 <div class="text">
 <h4><span class="sub-text">お申込み</span><span class="main-text">Apply</span></h4>
-<p class="btn1"><a href="https://asiro-ssi.com/form/init">お申込み</a></p>
+<p class="btn1"><a href="https://asiro-ssi.com/form/init" class="link-to-init">お申込み</a></p>
 </div>
 </div>
 
 <div class="list image2">
 <div class="text">
 <h4><span class="sub-text">資料請求</span><span class="main-text">Request</span></h4>
-<p class="btn1"><a href="https://asiro-ssi.com/material_download">資料請求</a></p>
+<p class="btn1"><a href="https://asiro-ssi.com/material_download" class="link-to-material">資料請求</a></p>
 </div>
 </div>
 
@@ -704,6 +704,22 @@
 
 <!--このテンプレート専用のスクリプト-->
 <script src="https://haitug08.github.io/lp/js/main.js"></script>
+
+<script>
+  const query = window.location.search;
+  const origin = window.location.origin; // 例: https://staging.asiro-ssi.com
+
+  // initページへのリンク
+  document.querySelectorAll('.link-to-init').forEach(el => {
+    el.href = origin + "/form/init" + query;
+  });
+
+  // material_downloadページへのリンク
+  document.querySelectorAll('.link-to-material').forEach(el => {
+    el.href = origin + "/material_download" + query;
+  });
+</script>
+	
 
 </body>
 </html>
