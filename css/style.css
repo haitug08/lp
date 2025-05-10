@@ -593,6 +593,27 @@ main h2 {
 
 	}/*追加指定ここまで*/
 
+/*※インデント*/
+main .indent {
+	font-size: 11px;
+	text-indent: -1em;
+	padding-left: 1em;
+	text-align:left;
+	margin: 10px auto 10px auto;
+	max-width: 900px;
+	color: #000000;
+}
+
+	/*画面700px以上の追加指定*/
+	@media screen and (min-width:700px) {
+
+	main .indent {
+		text-align:right;
+	}
+
+	}/*追加指定ここまで*/
+
+
 
 /*テキストをセンタリングする場合*/
 main h2.c {
