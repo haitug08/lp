@@ -1329,15 +1329,24 @@ section > .bg-slideup:first-child {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 3rem;		/*英語テキストと日本語テキストの間のスペース。３文字分。*/
 	color: #fff;	/*文字色*/
 }
 
 /* 英語テキスト */
-.en-text {
+.en-text1 {
+	writing-mode: horizontal-tb;
+	font-size: 4.0rem;
+	font-family:"Oriya MN";
+}
+
+/* 英語テキスト */
+.en-text2 {
 	writing-mode: horizontal-tb;
 	font-size: 0.8rem;	/*文字サイズ80%*/
+	font-family:"Oriya MN";
 }
+
+
 
 /* 日本語テキスト */
 .jp-text {
@@ -1730,3 +1739,8 @@ pre {white-space: pre-wrap;word-wrap: break-word;overflow-wrap: break-word;}
 	}/*追加指定ここまで*/
 
 
+.bonobo_01 {font-family:"Oriya MN"; font-weight:bold; font-size:larger; color:#ffffff; opacity:1;}
+.bonobo_02 {font-family:"Oriya MN"; font-weight:bold;}
+.bonobo_03 {font-family:"Oriya MN"; font-weight:bold; font-size:larger; color:#0090B0; opacity:1;}
+.bonobo_04 {font-family:"Oriya MN"; font-weight:bold; color:#0090B0; opacity:1;}
+.bonobo_01 {font-family:"Oriya MN"; font-weight:bold; font-size:larger; color:#ffffff; opacity:1;}
