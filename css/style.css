@@ -652,8 +652,8 @@ h2 img {
 /*フッター
 ---------------------------------------------------------------------------*/
 footer {
-	background: var(--primary-color);		/*背景色。冒頭のprimary-colorを読み込みます。*/
-	color: var(--primary-inverse-color);	/*文字色。冒頭のprimary-inverse-colorを読み込みます。*/
+	background: #ffffff;
+	color: #000000;	/*文字色。*/
 	padding: 2rem;	/*フッター内の余白。2文字分。*/
 	display: flex;
 	flex-direction: column-reverse;
@@ -1125,7 +1125,7 @@ footer small {
 
 /*bg-black内のボックスへの追加設定*/
 .list-grid1 .list.bg-black {
-	background: #111;	/*背景色*/
+	background: #2c87ab;	/*背景色*/
 	color: #fff;		/*文字色*/
 }
 
