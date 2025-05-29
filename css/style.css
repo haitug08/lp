@@ -1137,7 +1137,6 @@ footer small {
 	font-size: 60px;	/*文字サイズ*/
 	line-height: 1;
 	font-family: "MonteCarlo", cursive;	/*フォント指定*/
-	opacity: 0.2;	/*透明度。色を20%出す。*/
 }
 
 /*引用符（“）の装飾*/
