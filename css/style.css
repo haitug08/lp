@@ -539,7 +539,7 @@ a.ddmenu::before {
 
 /*2つ目のボタン（資料請求）への追加設定*/
 #mainimg .btn p:nth-of-type(2) a {
-	background: #000000;
+	background: #e56e2c;
 	color: var(--primary-inverse-color);			/*文字色。冒頭のprimary-colorを読み込みます。*/
 	letter-spacing: 0.1em;					/*文字間隔を少しだけ広く*/
 }
@@ -972,7 +972,8 @@ footer small {
 /*bg1
 ---------------------------------------------------------------------------*/
 .bg1 {
-	background-color: #323232;	
+	background-color: #e8e8e8
+;	
 	color: var(--base-color);	/*文字色。冒頭のbase-colorを読み込みます。*/
 }
 
@@ -1021,7 +1022,7 @@ footer small {
 /*ボックス下部を三角形（▼）にする場合。三角形の高さ自体はmask-imageのd=の中にある２つの「95」という数値で変更できます。小さいほど角度が大きくなります。
 ---------------------------------------------------------------------------*/
 .arrow {
-    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M0,0 L100,0 L100,95 L50,100 L0,95 Z' fill='%23000000'/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M0,0 L100,0 L100,95 L50,100 L0,95 Z' fill='%23ffffff'/%3E%3C/svg%3E");
     mask-size: 100% 100%;
     mask-repeat: no-repeat;
 }
@@ -1031,7 +1032,7 @@ footer small {
 
 	/*三角形の高さの再設定。95を90に変更しています。*/
 	.arrow {
-		mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M0,0 L100,0 L100,90 L50,100 L0,90 Z' fill='%23000000'/%3E%3C/svg%3E");
+		mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M0,0 L100,0 L100,90 L50,100 L0,90 Z' fill='%23ffffff'/%3E%3C/svg%3E");
 		padding-bottom: 150px;
 	}
 	
