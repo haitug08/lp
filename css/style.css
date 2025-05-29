@@ -618,6 +618,7 @@ main .indent {
 /*テキストをセンタリングする場合*/
 main h2.c {
 	align-items: center;
+	color: #0090B0;
 }
 
 /*h2内のspan（小文字）*/
@@ -625,6 +626,7 @@ main h2 span {
 	font-size: 0.85rem;	/*文字サイズ85%*/
 	opacity: 0.5;		/*透明度。色を50%だけ出す。*/
 	font-weight: normal;	/*太字ではなく標準にする*/
+	color: #0090B0;
 }
 
 /*h2内のimg画像（「そのお悩み」という手書き風のふきだしに使っています）*/
