@@ -1785,7 +1785,8 @@ pre {white-space: pre-wrap;word-wrap: break-word;overflow-wrap: break-word;}
     display: none;
     width: 100%;
     padding: 1.5em 1em;
-    background-color: #fff;
+    background-color: #00A0BD;
+    border-radius: 0px 0px 5px 5px;
 }
 
 .tab-1 label:has(:checked) {
