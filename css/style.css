@@ -1773,10 +1773,6 @@ pre {white-space: pre-wrap;word-wrap: break-word;overflow-wrap: break-word;}
     cursor: pointer;
 }
 
-.tab-1 > label:hover {
-    opacity: .8;
-}
-
 .tab-1 input {
     display: none;
 }
