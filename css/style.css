@@ -1748,10 +1748,15 @@ pre {white-space: pre-wrap;word-wrap: break-word;overflow-wrap: break-word;}
 .bonobo_01 {font-family:"Oriya MN"; font-weight:bold; font-size:larger; color:#ffffff; opacity:1;}
 
 
+
+
+/*タブ
+---------------------------------------------------------------------------*/
 .tab-1 {
     display: flex;
     flex-wrap: wrap;
     max-width: 500px;
+    margin: auto;	
 }
 
 .tab-1 > label {
