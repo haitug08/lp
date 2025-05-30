@@ -1768,10 +1768,11 @@ pre {white-space: pre-wrap;word-wrap: break-word;overflow-wrap: break-word;}
     border-radius: 0;
     background-color: #e9f0f6;
     color: #535353;
-    font-size: 1.1em;
+    font-size: 1.3em;
     text-align: center;
     cursor: pointer;
     font-weight: bold;
+    line-height: normal;
 }
 
 .tab-1 input {
