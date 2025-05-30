@@ -1789,12 +1789,12 @@ pre {white-space: pre-wrap;word-wrap: break-word;overflow-wrap: break-word;}
 }
 
 .tab-1 label:has(:checked) {
-    background-color: #fff;
-    border-color: #2589d0 #f0f0f0 #fff;
+    background-color: #00A0BD;
+    border-color: #00A0BD #f0f0f0 #fff;
     border-style: solid;
-    border-width: 4px 1px 1px;
-    border-radius: 5px;
-    color: #333333;
+    border-width: 4px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+    color: #ffffff;
 }
 
 .tab-1 label:has(:checked) + div {
