@@ -1816,3 +1816,24 @@ pre {white-space: pre-wrap;word-wrap: break-word;overflow-wrap: break-word;}
     padding: 4px 0;
     margin: 0px auto 10px auto;
 }
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* SP表示（画面幅が768px以下）で縦並びに */
+@media screen and (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .flex-item {
+    width: 100% !important; /* 必要に応じて */
+    padding-left: 0 !important; /* padding 調整 */
+    margin-bottom: 20px; /* 隙間をつける */
+  }
+}
