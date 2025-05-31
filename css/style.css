@@ -1800,3 +1800,8 @@ pre {white-space: pre-wrap;word-wrap: break-word;overflow-wrap: break-word;}
     display: block;
 }
 
+.font-tenor {
+    font-family: "Tenor Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
