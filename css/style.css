@@ -1805,3 +1805,14 @@ pre {white-space: pre-wrap;word-wrap: break-word;overflow-wrap: break-word;}
     font-weight: 400;
     font-style: normal;
 }
+
+
+.tittle01 {
+    background: #8DA5B2;
+    border-radius: 30px;
+    width: 240px;
+    text-align: center;
+    font-size: 19px;
+    padding: 4px 0;
+    margin-bottom: 20px;
+}
