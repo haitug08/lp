@@ -92,8 +92,8 @@ body {
 figure {margin: 0;}
 dd {margin: 0;}
 nav ul {list-style: none;}
-nav,ul,li,ol {margin: 0;padding: 0;}
-section li {margin-left: 1rem;}
+nav,ul,li,ol {margin: 0;padding: 0;list-style: none;}
+section li {margin-left: 0rem;}
 
 /*table全般の設定*/
 table {border-collapse:collapse;}
