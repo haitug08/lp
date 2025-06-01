@@ -1824,8 +1824,8 @@ pre {white-space: pre-wrap;word-wrap: break-word;overflow-wrap: break-word;}
   flex-wrap: wrap;
 }
 
-/* SP表示（画面幅が768px以下）で縦並びに */
-@media screen and (max-width: 768px) {
+/* SP表示（画面幅が900px以下）で縦並びに */
+@media screen and (max-width: 900px) {
   .flex-container {
     flex-direction: column;
     align-items: stretch;
@@ -1836,4 +1836,15 @@ pre {white-space: pre-wrap;word-wrap: break-word;overflow-wrap: break-word;}
     padding-left: 0 !important; /* padding 調整 */
     margin-bottom: 20px; /* 隙間をつける */
   }
+}
+
+@media screen and (min-width: 901px) {
+    .tab-sp{
+        display: none !important;
+    }
+}
+@media screen and (max-width: 900px) {
+    .tab-pc{
+        display: none !important;
+    }
 }
