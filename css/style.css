@@ -532,13 +532,13 @@ a.ddmenu::before {
 	}/*追加指定ここまで*/
 
 
-/*1つ目のボタン（お申込み）の追加設定*/
+/*1つ目のボタンの追加設定*/
 #mainimg .btn p:nth-of-type(1) a {
-	background: var(--primary-color);		/*背景色。冒頭のprimary-colorを読み込みます。*/
+	background: #e56e2c;
 	color: var(--primary-inverse-color);	/*文字色。冒頭のprimary-inverse-colorを読み込みます。*/
 }
 
-/*2つ目のボタン（資料請求）への追加設定*/
+/*2つ目のボタンへの追加設定*/
 #mainimg .btn p:nth-of-type(2) a {
 	background: #e56e2c;
 	color: var(--primary-inverse-color);			/*文字色。冒頭のprimary-colorを読み込みます。*/
