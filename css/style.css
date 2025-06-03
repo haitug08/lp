@@ -1658,7 +1658,7 @@ section > .bg-slideup:first-child {
 
 .ta2 td {
 	width: 10%;			/*幅*/
-	text-align: center;	/*テキストをセンタリング*/
+	text-align: left;	/*テキストをセンタリング*/
 }
 
 	/*画面幅800px以下の追加指定*/
