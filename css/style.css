@@ -486,7 +486,7 @@ a.ddmenu::before {
 
 	#mainimg .text {
 		text-align: left;	/*テキストを左寄せ*/
-		font-size: 2.4vw;	/*文字サイズ。*/
+		font-size: 2.0vw;	/*文字サイズ。*/
 	}
 	#mainimg p {
 		margin: 0;
