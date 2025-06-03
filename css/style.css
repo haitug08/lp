@@ -1655,15 +1655,17 @@ section > .bg-slideup:first-child {
 	text-align: center;	/*テキストをセンタリング*/
 }
 
+
+.ta2 td {
+	width: 10%;			/*幅*/
+	text-align: center;	/*テキストをセンタリング*/
+}
+
 	/*画面幅800px以下の追加指定*/
 	@media screen and (max-width:800px) {
 
 	.ta2 td, .ta2 th {display: block; width: 100%;}
 
-}
-
-.ta2 td {
-	width: 10%;			/*幅*/
 }
 
 
