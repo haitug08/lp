@@ -1673,6 +1673,7 @@ section > .bg-slideup:first-child {
 ---------------------------------------------------------------------------*/
 /*テーブル１行目に入った見出し部分（※caption）*/
 .ta3 caption {
+    font-size: 18px;
     font-weight: bold;
     padding: 0.5rem 1rem;
     background: var(--base-inverse-color);
@@ -1682,11 +1683,12 @@ section > .bg-slideup:first-child {
 
 /*ta3テーブルブロック設定*/
 .ta3 {
-	    
-	table-layout: fixed;
-	width: 100%;
-	border: 2px solid #0090B0;
-	margin-bottom: 2rem;
+    table-layout: fixed;
+    width: 100%;
+    border: 2px solid #0090B0;
+    margin-bottom: 2rem;
+    border-collapse: separate;
+    border-radius: 0px 0px 10px 10px;
 }
 /*tr（１行分）タグ設定*/
 .ta3 tr {
