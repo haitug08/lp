@@ -1689,6 +1689,8 @@ section > .bg-slideup:first-child {
     margin-bottom: 2rem;
     border-collapse: separate;
     border-radius: 0px 0px 10px 10px;
+    max-width: 900px;
+    margin: 0px auto 20px auto;
 }
 /*tr（１行分）タグ設定*/
 .ta3 tr {
