@@ -1651,7 +1651,7 @@ section > .bg-slideup:first-child {
 
 /*th（左側）のみの設定*/
 .ta2 th {
-	width: 15%;			/*幅*/
+	width: 35%;			/*幅*/
 	text-align: center;	/*テキストをセンタリング*/
 }
 
