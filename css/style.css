@@ -90,10 +90,17 @@ body {
 
 /*リセット他*/
 figure {margin: 0;}
-dd {margin: 0;height: 130px;}
+dd {margin: 0;height: 180px;}
 nav ul {list-style: none;}
 nav,ul,li,ol {margin: 0;padding: 0;list-style: none;}
 section li {margin-left: 0rem;}
+
+@media screen and (max-width: 900px) {
+    dd {
+        height: 5px;
+    }
+}
+
 
 /*table全般の設定*/
 table {border-collapse:collapse;}
