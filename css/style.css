@@ -97,7 +97,7 @@ section li {margin-left: 0rem;}
 
 @media screen and (max-width: 900px) {
     dd {
-        height: 5px;
+        height: 100px;
     }
 }
 
