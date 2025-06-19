@@ -90,7 +90,7 @@ body {
 
 /*リセット他*/
 figure {margin: 0;}
-dd {margin: 0;}
+dd {margin: 0;height: 130px;}
 nav ul {list-style: none;}
 nav,ul,li,ol {margin: 0;padding: 0;list-style: none;}
 section li {margin-left: 0rem;}
@@ -1874,7 +1874,7 @@ pre {white-space: pre-wrap;word-wrap: break-word;overflow-wrap: break-word;}
 .tittle01 {
     background: #8DA5B2;
     border-radius: 30px;
-    width: 160px;
+    width: 250px;
     text-align: center;
     font-size: 14px;
     padding: 4px 0;
