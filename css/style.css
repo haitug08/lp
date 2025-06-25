@@ -90,7 +90,7 @@ body {
 
 /*リセット他*/
 figure {margin: 0;}
-dd {margin: 0;height: 180px;}
+dd {margin: 0px 0px 20px 0px;}
 nav ul {list-style: none;}
 nav,ul,li,ol {margin: 0;padding: 0;list-style: none;}
 section li {margin-left: 0rem;}
