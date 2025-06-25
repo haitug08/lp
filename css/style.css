@@ -1826,7 +1826,7 @@ pre {white-space: pre-wrap;word-wrap: break-word;overflow-wrap: break-word;}
 .tab-1 {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 90%;
     margin: auto;	
 }
 
